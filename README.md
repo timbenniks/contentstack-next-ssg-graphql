@@ -1,4 +1,4 @@
-# Contentstack Kickstart: Next.js GraphQL
+# Contentstack Kickstart: Next.js 15 SSG & GraphQL with Live Preview
 
 Contentstack Kickstarts are the minimum amount of code needed to connect to Contentstack.
 This kickstart covers the following items:
