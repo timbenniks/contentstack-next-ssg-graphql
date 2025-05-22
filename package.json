@@ -1,0 +1,47 @@
+{
+  "name": "kickstart-next-graphql",
+  "version": "1.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contentstack/kickstart-next-graphql"
+  },
+  "description": "Contentstack Kickstarts are the minimum amount of code needed to connect to Contentstack.",
+  "author": "Tim Benniks <tim.benniks@contentstack.com>",
+  "homepage": "https://contentstack.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build",
+    "start": "npx serve out",
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "dependencies": {
+    "@contentstack/delivery-sdk": "^4.7.0",
+    "@contentstack/live-preview-utils": "^3.2.2",
+    "@graphql-codegen/cli": "^5.0.6",
+    "@graphql-codegen/client-preset": "^4.8.1",
+    "@timbenniks/contentstack-endpoints": "^1.0.9",
+    "dompurify": "^3.2.6",
+    "dotenv": "^16.5.0",
+    "graphql-request": "^7.1.2",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/typescript": "^4.1.6",
+    "@graphql-codegen/typescript-operations": "^4.6.1",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "eslint": "^9.27.0",
+    "eslint-config-next": "^15.3.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3"
+  }
+}
